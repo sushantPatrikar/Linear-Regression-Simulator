@@ -40,6 +40,4 @@ while True:
     xT = x1.T
     grad = (xT.dot(error))/(m)
     theta = theta - alpha*(grad)
-    plt.text(100,100,('Cost: ',cost))
     fig.canvas.flush_events()
-pass
